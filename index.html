@@ -1,42 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portolio Eduardo Augusto</title>
-    <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <!--Devicon fonts-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-          
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Eduardo Augusto</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet">
+  <!-- Dev Icon Fonts -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+  <!-- CSS do Projeto -->
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <main id="container">
-       <aside id="bio-container"></aside>
-         <h2>Eduardo Augusto</h2>
-         <img src="img/eduardo.png" alt="Eduardo Augusto">
-         <p>Olá, meu nome é Eduardo Augusto e sou <span class="highlight">Analista de Dados.</span></p>
-         <p id="welcome-text">Seja Bem vindo!</p> 
-         <ul id="social-container">
-            <li><a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-         </ul>
-
-       
-       <section id="about-container">
-
-       </section>
-
-    </main>
-
-
-
-    <!--ion icons-->
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-     
-    
+  <main id="container">
+    <aside id="bio-container">
+      <h2>Eduardo Augusto</h2>
+      <img id="bio-image" src="img/eduardo.png" alt="Eduardo Augusto">
+      <p>Olá, meu nome é Eduardo Augusto e sou <span class="highlight">Analista de Dados</span>.</p>
+      <p id="welcome-text">Seja bem-vindo!</p>
+      <ul id="social-container">
+        
+        <li><a href="https://www.linkedin.com/in/eduardo-lima-augusto/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+        
+      </ul>
+      <div id="email-container">
+        <ion-icon name="mail-outline"></ion-icon><a href="mailto:duaugusto@gmail.com">duaugusto@gmail.com</a>
+      </div>
+    </aside>
+    <section id="about-container">
+      <h1 id="name">Eduardo Augusto</h1>
+      <p id="title"><span class="highlight">Analista de Dados</span></p>
+      <p class="description">Sou Analista de Dados especializado em Big Data, gosto de participar do projetos e insights desde a <span class="highlight">definição das regras de negócio e levantamento de requisitos</span> até o <span class="highlight">deploy da solução</span>.</p>
+      <p class="description">Atuo tanto no <span class="highlight">Data Lake</span> como no <span class="highlight">Data Warehouse</span>, aplicando ETL/ELT, e solucões em Pipeline e Dashboards.</p>
+      <a href="https://github.com/eduardo-teijy-de-lima-augusto" target="_blank" id="btn-projects"><ion-icon name="share-social-outline"></ion-icon> <span>Ver Projetos</span></a>
+      <h2 id="skills-section-title">Minhas Skills</h2>
+      <p class="description">Conheça as tecnologias que domino:</p>
+      <div id="skills-container">
+        <div class="skills-box">
+          <p class="skills-title">Databases</p>
+          <i class="devicon-microsoftsqlserver-plain"></i>
+          <i class="devicon-mysql-plain colored"></i>
+          <i class="devicon-mongodb-plain colored"></i>
+        </div>
+        <div class="skills-box">
+          <p class="skills-title">Front-end Frameworks</p>
+          <i class="devicon-react-plain colored"></i>
+          <i class="devicon-vuejs-plain colored"></i>
+        </div>
+        <div class="skills-box">
+          <p class="skills-title">Back-end Frameworks</p>
+          <i class="devicon-laravel-plain colored"></i>
+          <i class="devicon-django-plain colored"></i>
+        </div>
+        <div class="skills-box">
+          <p class="skills-title">Tools</p>
+          <i class="devicon-linux-plain colored"></i>
+          <i class="devicon-docker-plain colored"></i>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Ion Icons -->
+  <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 </body>
 </html>
