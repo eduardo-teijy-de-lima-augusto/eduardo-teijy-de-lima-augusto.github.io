@@ -1071,7 +1071,7 @@ body{
 	Start Call to action CSS
 =================================*/
 .call-action{
-	background-image:url('img/acesso_remoto.png');
+	background-image:url('assets/img/acesso_remoto.png');
 	background-size:cover;
 	position:relative;
 	background-repeat:no-repeat;
