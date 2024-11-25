@@ -4176,3 +4176,35 @@ body{
 /*=========================
 	End Footer CSS
 ===========================*/
+
+/*=========================
+	start About Css
+===========================*/
+
+.message-box {
+    padding: 20px; /* Espaçamento interno */
+    background-color: transparent; /* Fundo transparente */
+  }
+
+  .message-box h4 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #343a40; /* Cor do título */
+  }
+
+  .message-box ul {
+    list-style-type: disc !important; /* Força a exibição dos marcadores */
+    padding-left: 20px !important; /* Garante o recuo */
+  }
+
+  .message-box ul li {
+	list-style-position: outside; /* Garante que os pontos fiquem fora do texto */
+    margin-bottom: 10px; /* Espaçamento entre os itens */
+    font-size: 16px;
+    color: #495057; /* Cor do texto */
+  }
+
+/*=========================
+	End About Css
+===========================*/
