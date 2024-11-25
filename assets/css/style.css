@@ -109,14 +109,14 @@ body{
 	position: absolute;
 	left: -80px;
 	width:80px;
-	height: 45px;
+	height: 85px;
 	line-height: 45px;
 	font-size: 14px;
 	border-radius: 5px 0 0 5px;
 	background: #0183b0;
 	text-align: center;
 	color: #fff;
-	top: 0;
+	top: 70%;
 	cursor: pointer;
 	box-shadow: -4px 0px 5px #00000036;
 }
