@@ -113,7 +113,7 @@ body{
 	line-height: 45px;
 	font-size: 14px;
 	border-radius: 5px 0 0 5px;
-	background: #1A76D1;
+	background: #0183b0;
 	text-align: center;
 	color: #fff;
 	top: 0;
@@ -127,7 +127,7 @@ body{
 	bottom: 15px;
 	right: 15px;
 	padding: 10px 20px;
-	background: #1a76d1;
+	background: #0183b0;
 	color: #fff;
 	font-size: 25px;
 	width: 45px;
@@ -344,7 +344,7 @@ body{
 	bottom: 0;
 	height: 3px;
 	width:0%;
-	background: #1A76D1;
+	background: #0183b0;
 	border-radius: 5px 5px 0 0;
 	opacity:0;
 	visibility:hidden;
@@ -358,7 +358,7 @@ body{
 	width: 100%;
 }
 .header .nav li.active a{
-	color:#1A76D1;
+	color:#0183b0;
 }
 .header .nav li:hover a:before{
 	opacity:1;
@@ -366,7 +366,7 @@ body{
 	visibility:visible;
 }
 .header .nav li:hover a{
-	color:#1a76d1;
+	color:#0183b0;
 }
 .header .nav li a i {
 	display: inline-block;
@@ -610,7 +610,7 @@ body{
 	line-height: 1.0;
 }
 .slider .single-slider h1 span{
-	color:#1a76d1;
+	color:#0183b0;
 }
 .slider .single-slider p {
 	color: #ffffff;
@@ -623,7 +623,7 @@ body{
 }
 .slider .single-slider .btn{
 	color:#fff;
-	background:#1a76d1;
+	background:#0183b0;
 	font-weight:500;
 	display:inline-block;
 	margin:0;
@@ -651,7 +651,7 @@ body{
 	width: 50px;
 	line-height: 50px;
 	text-align: center;
-	background: #1A76D1;
+	background: #0183b0;
 	color: #fff;
 	font-size: 26px;
 	position: absolute;
@@ -706,7 +706,7 @@ body{
 	text-align: left;
 	z-index:3;
 	border-radius:5px;
-	background:#1A76D1;
+	background:#0183b0;
 	 -webkit-transition: all .3s ease-out 0s;
     -moz-transition: all .3s ease-out 0s;
     -ms-transition: all .3s ease-out 0s;
@@ -729,7 +729,7 @@ body{
     margin: 0 auto;
     width: 80%;
     height: 90%;
-    background:#1A76D1;
+    background:#0183b0;
     opacity: 0;
     filter: blur(10px);
     -webkit-transition: all .3s ease-out 0s;
@@ -1071,7 +1071,7 @@ body{
 	Start Call to action CSS
 =================================*/
 .call-action{
-	background-image:url('assets/img/acesso_remoto.png');
+	background-image:url('../img/acesso_remoto.png');
 	background-size:cover;
 	position:relative;
 	background-repeat:no-repeat;
@@ -1096,10 +1096,10 @@ body{
 	margin-right:20px;
 	font-weight:500;
 	border:1px solid #fff;
-	color:#1a76d1;
+	color:#0183b0;
 }
 .call-action .content .btn:before{
-	background:#1A76D1;
+	background:#0183b0;
 }
 .call-action .content .btn:hover{
 	background:#1A76D1;
@@ -1467,7 +1467,7 @@ body{
 	border-radius: 3px;
 	margin: 0 0 0 -52px;
 	margin-top: 49px;
-	
+	box-sizing: ;
 }
 .testimonials .owl-dots .owl-dot {
 	display: inline-block;
@@ -1645,6 +1645,7 @@ body{
 	font-size:36px;
 	font-weight:600;
 	color:#1a76d1;
+	margin-top: 30px;
 }
 .pricing-table .single-table .amount span{
 	display:inline-block;
@@ -4158,7 +4159,7 @@ body{
 	color:#2C2D3F;
 }
 .footer .copyright{
-	background:#1A76D1;
+	background:#0c1d22;
 	padding:25px 0px 25px 0px;
 	text-align:center;
 }
