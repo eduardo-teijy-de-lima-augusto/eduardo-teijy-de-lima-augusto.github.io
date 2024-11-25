@@ -639,6 +639,18 @@ body{
 .slider .single-slider .btn.primary:before{
 	background:#1A76D1;
 }
+
+.slider .single-slider:before{
+	position:absolute;
+	content:"";
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background:#180a0a;
+	opacity:0.5;
+}
+
 .slider .owl-carousel .owl-nav {
 	margin: 0;
     position: absolute;
