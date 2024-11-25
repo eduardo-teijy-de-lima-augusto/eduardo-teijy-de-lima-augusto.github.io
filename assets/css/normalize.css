@@ -649,6 +649,7 @@ img {
 	/* Make sure images are scaled correctly. */
 	max-width: 100%;
 	/* Adhere to container width. */
+	margin-bottom: 5px;
 }
 
 figure {
