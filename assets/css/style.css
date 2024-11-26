@@ -1338,7 +1338,7 @@ body{
 	transition:all 0.4s ease;
 }
 .services .single-service h4{
-	text-transform:capitalize;
+	
 	margin-bottom:25px;
 	color:#2C2D3F;
 }
