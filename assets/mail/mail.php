@@ -37,6 +37,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 } else {
     // Redireciona caso o método não seja POST
     header("location: ../mail-error.html");
+    http_response_code(405);
+    echo "Método não permitido.";
     exit;
 }
 ?>
