@@ -1,22 +1,43 @@
-<?
-$name = $_POST{'name'};
-$email = $_POST{'email'};
-$phone = $_POST{'phone'};
-$subject = $_POST{'subject'};
-$message = $_POST['message'];
+<?php
+// Verifica se o formulário foi enviado
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Sanitize e atribui os valores das variáveis
+    $name = htmlspecialchars(trim($_POST['name'] ?? ''));
+    $email = filter_var(trim($_POST['email'] ?? ''), FILTER_VALIDATE_EMAIL);
+    $phone = htmlspecialchars(trim($_POST['phone'] ?? ''));
+    $subject = htmlspecialchars(trim($_POST['subject'] ?? ''));
+    $message = htmlspecialchars(trim($_POST['message'] ?? ''));
 
-$email_message = "
+    // Validações básicas
+    if (empty($name) || !$email || empty($message)) {
+        header("location: ../mail-error.html"); // Redireciona para uma página de erro
+        exit;
+    }
 
-Name: ".$name."
-Email: ".$email."
-Phone: ".$phone."
-Subject: ".$subject."
-Message: ".$message."
+    // Cria o corpo do e-mail
+    $email_message = "
+    Name: $name
+    Email: $email
+    Phone: $phone
+    Subject: $subject
+    Message: $message
+    ";
 
-";
+    // Configura os cabeçalhos do e-mail
+    $headers = "From: $email\r\n";
+    $headers .= "Reply-To: $email\r\n";
+    $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
-mail ("andrejota@gmail.com" , "Solitação Cliente", $email_message);
-header("location: ../mail-success.html");
+    // Envia o e-mail
+    if (mail("andrejota@gmail.com", "Solicitação Cliente", $email_message, $headers)) {
+        header("location: ../mail-success.html"); // Redireciona para a página de sucesso
+    } else {
+        header("location: ../mail-error.html"); // Redireciona para a página de erro
+    }
+} else {
+    // Redireciona caso o método não seja POST
+    header("location: ../mail-error.html");
+    exit;
+}
 ?>
-
 
