@@ -779,7 +779,6 @@ body{
 	font-size: 20px;
 	font-weight:600;
 	display:inline-block;
-	text-transform:capitalize;
 	color:#fff;
 	margin-top:13px;
 }
@@ -3267,7 +3266,6 @@ body{
 	color: #333;
 	font-weight: 600;
 	line-height: 27px;
-	text-transform: capitalize;
 	margin-bottom: 12px;
 	padding-bottom: 20px;
 	text-align: left;
